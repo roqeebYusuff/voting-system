@@ -1,14 +1,5 @@
 <?php
-
     $base_url = 'http://localhost/poll(mod)/';
-    //Messages
-    $room_create_success = "Room was added successfully";
-    $room_create_error = "Unable to add room";
-    $room_edit_success = "Room was edited successfully";
-    $room_edit_error = "Unable to edit room";
-    $room_delete_success = "Room deleted successfully";
-    $room_delete_error = "Unable to delete room";
-
     function executeQuery($cmdtext){
         $dbhost = 'localhost';
 		$dbuser = 'root';
@@ -66,5 +57,3 @@
         }
         return false;
     }
-
-?>

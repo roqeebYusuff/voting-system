@@ -1,5 +1,4 @@
-<?php 
-
+<?php
     $base_url = 'http://localhost/poll(mod)/';
 ?>
 
@@ -123,7 +122,7 @@
                     frmData[input.name] = input.value
                 })
 
-                target.addClass('disabled').html('<span class="spinner-border spinner-border-sm me-2"></span> Signing in...');
+                target.addClass('disabled').html('<span class="spinner-border spinner-border-sm me-2"></span> Signing up...');
                 
                 $.ajax({
                     type: 'POST',

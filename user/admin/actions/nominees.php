@@ -38,10 +38,3 @@
             echo $res;
         }
     }
-
-    if(isset($_GET['print'])){
-        // echo  'got here';
-        $t = $base_url;
-        file_get_contents($t.'user/admin/auth/signin.php');
-    }
-?>

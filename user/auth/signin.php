@@ -70,7 +70,7 @@
                                     </div>
 
                                     <div class="col-12 mt-3">
-                                        <button onclick="signin()" name="signin" class="btn btn-dark shadow w-100">Sign in</button>
+                                        <button onclick="loginn()" name="signin" class="btn btn-dark shadow w-100">Sign in</button>
                                     </div>
                                 </div>
 
@@ -104,7 +104,7 @@
                 })
             })
 
-            function signin(){
+            function loginn(){
                 if(!$('#signinForm').valid()){
                     return
                 }

@@ -1,18 +1,15 @@
 <?php 
     $title = 'Dashboard';
-    include '../comp/header.php';
+    include '../comp/nav.php';
 ?>
         <section class="welcome" style="margin-top: 5rem;">
             <div class="container">
-                <!-- <h4>Welcome!</h4> -->
-
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card shadow mb-4">
                             <div class="card-body p-0">
                                 <div class="post-card">
                                     <div class="card-title">
-                                        <!-- <i class="bi bi-heart-fill"></i> -->
                                         <h4>Striker of The Year</h4>
                                     </div>
                                     <div class="others d-flex flex-column">

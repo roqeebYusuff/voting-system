@@ -1,10 +1,8 @@
 <?php 
     $title = 'Vote';
-    include '../comp/header.php';
-    
+    include '../comp/nav.php';
     if(isset($_GET["type"])){
         $type =  $_GET['type'];
-
         $cmdtext = "SELECT * FROM votes WHERE `voter_id` = '$voterId' and `type` = '$type'";
         $r = executeQuery($cmdtext);
         if(mysqli_num_rows($r) > 0){
@@ -18,7 +16,6 @@
     else{
         redirect($base_url.'user/dashboard.php');
     }
-
 ?>
 
 <section id="vote">

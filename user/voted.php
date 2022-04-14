@@ -1,6 +1,6 @@
 <?php 
     $title = 'Already voted';
-    include '../comp/header.php';
+    include '../comp/nav.php';
 ?>
 
 <section id="voted">

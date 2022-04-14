@@ -1,8 +1,6 @@
-
 <?php 
     session_start();
     include '../lib/lib.php';
-
     if(!isset($_SESSION['roqvotyUser'])){
         redirect($base_url.'/user/auth/signin.php');
     }

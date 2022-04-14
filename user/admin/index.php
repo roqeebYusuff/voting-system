@@ -117,7 +117,7 @@
             counts('<?php echo $base_url ?>user/admin/actions/dashboard.php?fvoters')
 
             // $('.table-responsive').perfectScrollbar()
-            var lurl = "<?php echo $base_url?>user/admin/actions/dashboard.php?ntype=Midfielder"
+            var lurl = "<?php echo $base_url?>user/admin/actions/dashboard.php?ntype=Striker"
             var tbData = $("#nomData").DataTable({
                 lengthChange: true,
                 bRetrieve: true,
